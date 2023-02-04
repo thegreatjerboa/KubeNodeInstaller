@@ -1,3 +1,2 @@
-docker build -t patnaikshekhar/node-installer:1.3 .
-docker push patnaikshekhar/node-installer:1.3
-kubectl apply -f .\k8s
+docker build -t thegreatjerboa/node-installer:1.4 .
+docker push thegreatjerboa/node-installer:1.4
