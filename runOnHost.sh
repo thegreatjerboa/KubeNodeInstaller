@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # Copy installation script to host
-cp /tmp/install.sh /host
+cp /scripts/install.sh /host
 
 # Copy cleanup script to host
-cp /tmp/cleanup.sh /host
+cp /scripts/cleanup.sh /host
 
-# Copy wait script to the host 
+# Copy wait script to the host
 cp /wait.sh /host
 
 # Copy install files to the host
